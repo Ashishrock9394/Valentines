@@ -13,5 +13,5 @@ export const getTodayPage = () => {
   };
 
   return map[today] || "valentine";
-  // return "valentine";
+  // return "teddy";
 };
