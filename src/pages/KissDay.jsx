@@ -5,9 +5,9 @@ export default function KissDay() {
     <DayPage
       title="🌹 Happy Kiss Day"
       cards={[
-        { image: "/img/rose1.jpg", text: "Will you accept my rose?" },
-        { image: "/img/rose2.jpg", text: "You are my favorite flower ❤️" },
-        { image: "/img/rose3.jpg", text: "A rose for my love" },
+        { image: "/img/kiss1.jpg", text: "Kiss me, my love 😘" },
+        { image: "/img/kiss2.jpg", text: "Your lips are my favorite place to be ❤️" },
+        { image: "/img/kiss3.jpg", text: "One kiss could bind two souls in a second ❤️" },
       ]}
     />
   );

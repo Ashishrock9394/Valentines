@@ -5,9 +5,9 @@ export default function PromiseDay() {
     <DayPage
       title="🌹 Happy Promise Day"
       cards={[
-        { image: "/img/rose1.jpg", text: "Will you accept my rose?" },
-        { image: "/img/rose2.jpg", text: "You are my favorite flower ❤️" },
-        { image: "/img/rose3.jpg", text: "A rose for my love" },
+        { image: "/img/promise1.jpg", text: "I promise to love you forever ❤️" },
+        { image: "/img/promise2.jpg", text: "I promise to be your best friend forever ❤️" },
+        { image: "/img/promise3.jpg", text: "I promise to always be there for you ❤️" },
       ]}
     />
   );

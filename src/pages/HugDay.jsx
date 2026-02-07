@@ -5,9 +5,9 @@ export default function HugDay() {
     <DayPage
       title="🌹 Happy Hug Day"
       cards={[
-        { image: "/img/rose1.jpg", text: "Will you accept my rose?" },
-        { image: "/img/rose2.jpg", text: "You are my favorite flower ❤️" },
-        { image: "/img/rose3.jpg", text: "A rose for my love" },
+        { image: "/img/hug1.jpg", text: "Hugs are my favorite way to show love ❤️" },
+        { image: "/img/hug2.jpg", text: "Your hugs make my heart full ❤️" },
+        { image: "/img/hug3.jpg", text: "I hug you with all my heart 🫂" },
       ]}
     />
   );

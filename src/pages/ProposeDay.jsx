@@ -5,9 +5,9 @@ export default function ProposeDay() {
     <DayPage
       title="🌹 Happy Propose Day"
       cards={[
-        { image: "/img/rose1.jpg", text: "Will you accept my rose?" },
-        { image: "/img/rose2.jpg", text: "You are my favorite flower ❤️" },
-        { image: "/img/rose3.jpg", text: "A rose for my love" },
+        { image: "/img/propose1.jpg", text: "Will you be my Valentine?" },
+        { image: "/img/propose2.jpg", text: "You are my everything ❤️" },
+        { image: "/img/propose.jpg", text: "I love you more than words can say 😘" },
       ]}
     />
   );

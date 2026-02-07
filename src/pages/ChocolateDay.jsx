@@ -5,9 +5,9 @@ export default function ChocolateDay() {
     <DayPage
       title="🌹 Happy Chocolate Day"
       cards={[
-        { image: "/img/rose1.jpg", text: "Will you accept my rose?" },
-        { image: "/img/rose2.jpg", text: "You are my favorite flower ❤️" },
-        { image: "/img/rose3.jpg", text: "A rose for my love" },
+        { image: "/img/chocolate1.jpg", text: "Happy Chocolate Day!" },
+        { image: "/img/chocolate2.jpg", text: "Chocolate is my love language ❤️" },
+        { image: "/img/chocolate3.jpg", text: "I love you more than chocolate can express 😘" },
       ]}
     />
   );

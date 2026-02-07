@@ -5,9 +5,9 @@ export default function TeddyDay() {
     <DayPage
       title="🌹 Happy Teddy Day"
       cards={[
-        { image: "/img/rose1.jpg", text: "Will you accept my rose?" },
-        { image: "/img/rose2.jpg", text: "You are my favorite flower ❤️" },
-        { image: "/img/rose3.jpg", text: "A rose for my love" },
+        { image: "/img/teddy.jpg", text: "Happy Teddy Day! My love ❤️" },
+        { image: "/img/teddy1.jpg", text: "You are my favorite teddy bear ❤️" },
+        { image: "/img/teddy2.jpg", text: "You and I are the perfect teddy pair ❤️" },
       ]}
     />
   );
