@@ -1,4 +1,5 @@
 import Card from "./Card";
+import Footer from "./Footer";
 import { motion } from "framer-motion";
 
 export default function DayPage({ title, cards }) {
@@ -15,6 +16,7 @@ export default function DayPage({ title, cards }) {
           <Card key={i} image={c.image} text={c.text} />
         ))}
       </div>
+      <Footer />
     </motion.div>
   );
 }

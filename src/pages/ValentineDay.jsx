@@ -1,4 +1,5 @@
 import GiftBox from "../components/GiftBox";
+import Footer from "../components/Footer";
 
 export default function ValentineDay() {
     const name = "Your Name";
@@ -19,6 +20,7 @@ export default function ValentineDay() {
                 >
                 💌 Share This
             </button>
+            <Footer />
         </div>
     );
 }
