@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function DayPage({ title, cards }) {
   const DEFAULT_NAME = 'My Love';
-  const FIXED_NAMES = ['ashish', 'Pooja']; // edit allowed names here
+  const FIXED_NAMES = ['ashish', 'Pooja', 'Saumya']; // edit allowed names here
 
   // normalize allowed names for comparison
   const ALLOWED = FIXED_NAMES.map((n) => n.toLowerCase());
