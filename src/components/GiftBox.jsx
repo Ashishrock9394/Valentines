@@ -93,7 +93,7 @@ export default function GiftBox({ noMusic = false }) {
         <div className="gift-box-3d">
           🎁
         </div>
-        <p className="gift-label">Open Your Heart</p>
+        <p className="gift-label">Open My Heart</p>
       </motion.div>
     );
   }
@@ -104,17 +104,6 @@ export default function GiftBox({ noMusic = false }) {
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
     >
-      <motion.button
-        className="gift-back-btn"
-        onClick={() => {
-          setOpen(false);
-          setOpenedEnvelope(null);
-        }}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
-      >
-        ← Back
-      </motion.button>
 
       <motion.div
         className="envelopes-grid"
@@ -170,6 +159,16 @@ export default function GiftBox({ noMusic = false }) {
           </motion.div>
         ))}
       </motion.div>
+      <motion.button
+        className="gift-back-btn"
+        onClick={() => {
+          setOpen(false);
+          setOpenedEnvelope(null);
+        }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+      > Back
+      </motion.button>
     </motion.div>
   );
 }
