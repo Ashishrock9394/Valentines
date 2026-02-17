@@ -16,5 +16,5 @@ export const getTodayPage = () => {
     14: "valentine",
   };
 
-  return map[today];
+  return map[today] || "Good Bye";
 };
